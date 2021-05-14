@@ -6,13 +6,13 @@ export default function Footer() {
     <div className="Footer">
       <p className="code">
         <a
-          href="https://github.com/Sea-Hummingbird/weather-app"
+          href="https://github.com/Sea-Hummingbird/React-weather-app"
           className="open-source-code"
           target="_blank"
         >
-          Open-Source Code
+          Open-Source Code 
         </a>
-        by Claudia Medel
+         by Claudia Medel
       </p>
     </div>
   );
