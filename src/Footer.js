@@ -8,7 +8,8 @@ export default function Footer() {
         <a
           href="https://github.com/Sea-Hummingbird/React-weather-app"
           className="open-source-code"
-          target="_blank"
+          target="_blank" 
+          rel="noreferrer"
         >
           Open-Source Code 
         </a>
