@@ -11,6 +11,7 @@ export default function Temperature() {
               src="http://openweathermap.org/img/wn/03n@2x.png"
               className="dayIcon"
               width="100px"
+              alt="Weather Icon"
             />
             <br />
             <span className="description">Scattered Clouds</span>
