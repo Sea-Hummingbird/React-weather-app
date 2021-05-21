@@ -8,13 +8,17 @@ export default function Temperature() {
         <div className="col-6">
           <p className="day">
             <img
-              src="http://openweathermap.org/img/wn/03n@2x.png"
+              src= "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/009/235/original/few-clouds-d.png?1621556088"
               className="dayIcon"
               width="100px"
               alt="Weather Icon"
             />
             <br />
-            <span className="description">Scattered Clouds</span>
+            <span className="description">Scattered Clouds</span><br />
+            <div className="information">
+              Humidity: <span> 72 </span> %<br />
+              Wind: <span> 5 </span> mph
+            </div>
           </p>
         </div>
         <div className="col-6">
@@ -24,7 +28,7 @@ export default function Temperature() {
               <span className="active">°C</span>
             </span>
             <br />
-            <span>
+            <span className="date-time">
               Sat, Apr 24 <br />
               9:49 hrs
             </span>

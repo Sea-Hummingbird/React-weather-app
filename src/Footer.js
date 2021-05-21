@@ -11,9 +11,9 @@ export default function Footer() {
           target="_blank" 
           rel="noreferrer"
         >
-          Open-Source Code  
+          Open-Source Code
         </a>
-          by Claudia Medel
+          {" "}by Claudia Medel
       </p>
     </div>
   );
