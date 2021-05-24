@@ -73,10 +73,16 @@ form {
   border-radius: 50px;
   border-color: transparent;
 }
+button {
+  background-color: #ffffff;
+  border-radius: 50px;
+  border-color: transparent;
+}
 
 button:hover {
-  border-color: white;
+  border-color: transparent;
   cursor: pointer;
+  background-color: violet;
   color: #ffffff;
 }
 

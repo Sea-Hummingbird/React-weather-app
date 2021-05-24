@@ -10,8 +10,7 @@ export default function Weather() {
     <div className="Weather">
       <div className="container">
         <div>
-          <p className="city">New York</p>
-          <Temperature />
+          <Temperature defaultCity="Berlin"/>
           <Forecast />
         </div>
         <Form />
