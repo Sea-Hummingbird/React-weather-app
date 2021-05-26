@@ -57,14 +57,14 @@ export default function Temperature(props) {
                 placeholder="Another City?"
                 onChange={handleCityChange}
               />
-              <button type="submit">
+              <button className="searchT" type="submit">
                 🔍
               </button>
           </form>
         </div>
         <div className="col-1">
           <form>
-            <button type="submit">
+            <button className="currentLocationT" type="submit">
               ➤
             </button>
           </form>

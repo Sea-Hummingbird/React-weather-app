@@ -1,6 +1,7 @@
 import React from "react";
 import CurrentDate from "./CurrentDate";
 import WeatherIcon from "./WeatherIcon";
+import TempUnits from "./TempUnits";
 
 export default function WeatherInfo(props){
     return (
@@ -13,8 +14,7 @@ export default function WeatherInfo(props){
         <div className="col-6">
           <p className="day">
             <WeatherIcon code={props.data.icon} alt={props.data.description}/>
-            <br />
-            <span className="description">{props.data.description}</span><br />
+            <span className="description"><strong>{props.data.description}</strong></span><br />
             <div className="information">
               Humidity: <span> {props.data.humidity} </span> %<br />
               Wind: <span> {props.data.wind} </span> mph
@@ -23,11 +23,7 @@ export default function WeatherInfo(props){
         </div>
         <div className="col-6">
           <p className="temp-date-time-MM">
-            <span className="temp">{Math.round(props.data.temperature)}</span>
-            <span className="units">
-              <span className="active">°C</span>
-            </span>
-            <br />
+            <TempUnits celsius={props.data.temperature}/>
             <span className="date-time">
                <CurrentDate date={props.data.date} /> 
             </span>
