@@ -1,7 +1,5 @@
 import React from "react";
 import Temperature from "./Temperature";
-import Forecast from "./Forecast";
-import Form from "./Form";
 import Footer from "./Footer";
 import "./App.css";
 
@@ -11,9 +9,7 @@ export default function Weather() {
       <div className="container">
         <div>
           <Temperature defaultCity="New York"/>
-          <Forecast />
         </div>
-        <Form />
       </div>
       <Footer />
     </div>
