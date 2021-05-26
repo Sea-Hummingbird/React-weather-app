@@ -13,7 +13,7 @@ export default function Temperature(props) {
       ready: true,
       cityName: response.data.name,
       date: new Date(response.data.dt * 1000),
-      icon: "https://s3.amazonaws.com/shecodesio-production/uploads/files/000/009/235/original/few-clouds-d.png?1621556088",
+      icon: response.data.weather[0].icon,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
       wind: response.data.wind.speed, 
