@@ -49,7 +49,7 @@ export default function Temperature(props) {
       </div>
           <div className="Form">
       <div className="row search">
-        <div className="col-11">
+        <div>
           <form onSubmit={handleSubmit}> 
               <input
                 type="text"
@@ -60,13 +60,6 @@ export default function Temperature(props) {
               <button className="searchT" type="submit">
                 🔍
               </button>
-          </form>
-        </div>
-        <div className="col-1">
-          <form>
-            <button className="currentLocationT" type="submit">
-              ➤
-            </button>
           </form>
         </div>
       </div>
