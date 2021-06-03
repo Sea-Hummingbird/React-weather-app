@@ -19,7 +19,7 @@
 .city {
   text-align: center;
   font-size: 40px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding: 10px 0px 10px 0px;
   margin-bottom: 0px;
 }
@@ -50,21 +50,12 @@ a:link {
   top: -32px;
 }
 
-.weeklyForecast {
-  text-align: center;
-  padding: 60px 0px 10px 0px;
-}
-
-.f-box {
-  background-color: violet;
-  font-size: 60px;
-  text-align: center;
-}
-
 form {
   display: block;
   align: 0 auto;
   padding: 20px 0px 20px 0px;
+  position: relative;
+  top: 35px;
 }
 .change-city {
   border-radius: 50px;
@@ -97,6 +88,8 @@ button:hover {
 .code {
   color: #000000;
   text-align: center;
+  position: relative;
+  top: 40px;
 }
 .open-source-code {
   text-decoration: none;

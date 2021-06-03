@@ -45,7 +45,7 @@ export default function Temperature(props) {
       <div>
            <div>
         <WeatherInfo data={weatherData}/>
-        <Forecast />
+        <Forecast data={weatherData}/>
       </div>
           <div className="Form">
       <div className="row search">
