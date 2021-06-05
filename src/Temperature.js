@@ -20,6 +20,7 @@ export default function Temperature(props) {
       tempMax: response.data.main.temp_max,
       tempMin: response.data.main.temp_min,
       description: response.data.weather[0].description,
+      coordinates: response.data.coord,
     });
   }
 

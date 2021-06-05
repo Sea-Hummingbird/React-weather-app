@@ -26,7 +26,7 @@ export default function ForecastIcon (props){
             <img
               src= {codeMapping[props.forecastCode]}
               className= {props.alt}
-              width="45px"
+              width="38px"
               alt="Weather Icon"
             />
         </div>
