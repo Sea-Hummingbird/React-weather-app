@@ -1,6 +1,6 @@
 .forecast {
   position: relative;
-  top: 40px;
+  top: 60px;
 }
 
 .weeklyForecast {
@@ -20,7 +20,10 @@
 
 img {
   display: block;
-  align: 0 auto;
-  padding-bottom: 5px;
-  padding-top: 5px;
+  margin: 0 auto;
+}
+
+.maxMin {
+  position: relative;
+  top: 13px;
 }
