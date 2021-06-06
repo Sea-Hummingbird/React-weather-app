@@ -9,7 +9,7 @@ export default function Forecast (props){
 
     useEffect(() => {
         setLoaded(false);
-    }, [props.coordinates]);
+    }, [props.data.coordinates]);
 
 
     function handleForecast(response){
