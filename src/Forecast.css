@@ -11,7 +11,7 @@
 .col {
   padding: 5px;
   text-align: center;
-  margin-bottom: 32px;
+  margin-bottom: 0px;
 }
 .ForecastDay {
   padding-top: 5px;
@@ -21,9 +21,4 @@
 img {
   display: block;
   margin: 0 auto;
-}
-
-.maxMin {
-  position: relative;
-  top: 13px;
 }

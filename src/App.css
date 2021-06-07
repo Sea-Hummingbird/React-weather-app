@@ -24,7 +24,9 @@
   padding: 10px 0px 10px 0px;
   margin-bottom: 0px;
 }
-
+img {
+  padding-bottom: 10px;
+}
 .description {
   font-size: 15px;
   text-transform: capitalize;
