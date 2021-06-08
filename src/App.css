@@ -57,8 +57,8 @@ form {
   display: block;
   margin: 0 auto;
   padding: 20px 0px 20px 0px;
-  position: absolute;
-  bottom: 40px;
+  position: relative;
+  top: 105px;
 }
 .change-city {
   border-radius: 50px;
@@ -92,7 +92,7 @@ button:hover {
   color: #000000;
   text-align: center;
   position: relative;
-  top: 160px;
+  top: 120px;
 }
 .open-source-code {
   text-decoration: none;
