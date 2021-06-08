@@ -9,10 +9,13 @@ export default function Temperature(props) {
   const [city, setCity] = useState (props.defaultCity);
 
   function handleResponse (response) {
+    let localTime = new Date((response.data.dt + response.data.timezone) * 1000);
+    localTime = new Date(localTime.getTime() + (localTime.getTimezoneOffset() * 60 * 1000));
+
     setWeatherData ({
       ready: true,
       cityName: response.data.name,
-      date: new Date(response.data.dt * 1000),
+      date: localTime,
       icon: response.data.weather[0].icon,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
@@ -38,8 +41,6 @@ export default function Temperature(props) {
   function handleCityChange(event){
     setCity(event.target.value);
   }
-
-
 
   if (weatherData.ready){
     return (
@@ -67,9 +68,9 @@ export default function Temperature(props) {
     </div>
       </div>
   );
+
   } else {
     search()
     return "Loading...";
   }
-  
 }
